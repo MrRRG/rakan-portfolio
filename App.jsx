@@ -1,10 +1,10 @@
 import { BrowserRouter, Routes, Route, NavLink } from "react-router-dom";
-import Home from "./pages/Home";
-import About from "./pages/About";
-import Education from "./pages/Education";
-import Projects from "./pages/Projects";
-import Certificates from "./pages/Certificates";
-import Contact from "./pages/Contact";
+import Home from "./Home";
+import About from "./About";
+import Education from "./Education";
+import Projects from "./Projects";
+import Certificates from "./Certificates";
+import Contact from "./Contact";
 import "./index.css";
 
 function App() {
