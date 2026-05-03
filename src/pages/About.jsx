@@ -9,22 +9,34 @@ function About() {
             </h1>
 
             <div className="card about-card">
-                <p>
-                    I am a Computer Information Systems student at King Faisal University,
-                    interested in cybersecurity, IT support, system analysis, and digital
-                    transformation.
-                </p>
+                <div className="space-y-4">
+                    <p>
+                        I am a <span className="text-blue-400 font-semibold">Computer Information Systems student </span>
+                        at King Faisal University with a strong interest in
+                        <span className="text-blue-400 font-semibold"> Full Stack Web Development</span>.
+                    </p>
 
-                <p>
-                    I enjoy building practical systems that solve real problems, improve
-                    user experience, and support organizations through technology.
-                </p>
+                    <p>
+                        I focus on building <span className="text-blue-400 font-semibold">web-based systems </span>
+                        that are practical, user-friendly, and designed to solve real-world problems.
+                    </p>
 
+                    <p>
+                        I also have a strong interest in
+                        <span className="text-blue-400 font-semibold"> Cybersecurity</span>,
+                        and completed intensive university training in preparation for the
+                        CompTIA Security+ certification.
+                    </p>
+
+                    <p>
+                        Currently, I am looking for a COOP opportunity where I can gain real experience
+                        and continue developing my technical skills.
+                    </p>
+                </div>
                 <div className="about-tags">
+                    <span>Full Stack Development</span>
                     <span>Cybersecurity</span>
-                    <span>IT Support</span>
                     <span>System Analysis</span>
-                    <span>Web Development</span>
                     <span>Database Management</span>
                 </div>
             </div>
