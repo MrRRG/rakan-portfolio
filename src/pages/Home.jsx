@@ -22,7 +22,7 @@ function Home() {
                 </p>
 
                 <p className="hero-desc">
-                    Interested in Cybersecurity, IT Support, System Analysis, and building
+                    Interested in Cybersecurity, Full stack development, System Analysis, and building
                     practical digital solutions that improve user experience.
                 </p>
 
