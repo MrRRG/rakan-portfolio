@@ -12,10 +12,10 @@ const projects = [
     {
         title: "Barber Shop Appointment System",
         status: "Academic Project",
-        desc: "A web system for booking and managing barber appointments with database support.",
-        tools: ["PHP", "MySQL", "HTML", "CSS"],
+        desc: "A modern web-based appointment system that allows users to register, book services, manage appointments, and interact with an admin dashboard in real time.",
+        tools: ["React", "Vite", "Tailwind", "React Router", "LocalStorage", "Vercel"],
         github: "#",
-        demo: "#",
+        demo: "https://barber-shop-system-ivory.vercel.app/",
     },
     {
         title: "Game List Management System",
