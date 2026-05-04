@@ -14,7 +14,7 @@ const projects = [
         status: "Academic Project",
         desc: "A modern web-based appointment system that allows users to register, book services, manage appointments, and interact with an admin dashboard in real time.",
         tools: ["React", "Vite", "Tailwind", "React Router", "LocalStorage", "Vercel"],
-        github: "#",
+        github: "https://github.com/MrRRG",
         demo: "https://barber-shop-system-ivory.vercel.app/",
     },
     {
