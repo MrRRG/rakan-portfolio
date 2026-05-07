@@ -11,8 +11,6 @@ const projects = [
         images: [
             "/images/sentiment-dashboard/dashboard.png",
             "/images/sentiment-dashboard/wordcloud.png",
-            "/images/sentiment-dashboard/entity.png",
-            "/images/sentiment-dashboard/dataset.png",
         ]
     },
     {
