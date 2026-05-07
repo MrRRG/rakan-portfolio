@@ -2,6 +2,20 @@ import { FaLaptopCode, FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 
 const projects = [
     {
+        title: "Saudi Social Media Sentiment Analytics Dashboard",
+        status: "Data Analytics Project",
+        desc: "End-to-end data analytics and NLP dashboard for social media sentiment analysis using Python, Streamlit, Pandas, Matplotlib, and Scikit-learn. The project includes data cleaning, EDA, text mining, visualization, statistical insights, and interactive dashboard filtering.",
+        tools: ["Python", "Streamlit", "Pandas", "NumPy", "Matplotlib", "Seaborn", "Scikit-learn", "NLP", "Data Analytics"],
+        github: "https://github.com/MrRRG/saudi-sentiment-dashboard",
+        demo: "https://saudi-sentiment-dashboard-pkf5gnyct38cruvervzzrx.streamlit.app/",
+        images: [
+            "/images/sentiment-dashboard/dashboard.png",
+            "/images/sentiment-dashboard/wordcloud.png",
+            "/images/sentiment-dashboard/entity.png",
+            "/images/sentiment-dashboard/dataset.png",
+        ]
+    },
+    {
         title: "Faheem Government Digital Assistant",
         status: "Graduation Project",
         desc: "AI-powered government assistant designed to improve Saudi digital services using natural conversation and dialect-aware interaction.",
@@ -53,6 +67,14 @@ function Projects() {
                                 <span key={tool}>{tool}</span>
                             ))}
                         </div>
+
+                        {project.images && (
+                            <div className="project-images-grid">
+                                {project.images.map((img, index) => (
+                                    <img key={index} src={img} alt={`${project.title} preview ${index + 1}`} className="project-image" loading="lazy" />
+                                ))}
+                            </div>
+                        )}
 
                         <div className="project-actions">
                             <a href={project.github} target="_blank" rel="noreferrer">
