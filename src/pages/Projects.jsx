@@ -20,6 +20,10 @@ const projects = [
         tools: ["React", "Tailwind", "Laravel", "MySQL", "AI API", "Vercel", "Railway"],
         github: "https://github.com/MrRRG/Faheem-ai-assistant",
         demo: "https://faheem-teal.vercel.app/",
+        images: [
+            "/images/faheem/faheem-home.png",
+            "/images/faheem/faheem-challenge.png",
+        ]
     },
     {
         title: "Barber Shop Appointment System",
