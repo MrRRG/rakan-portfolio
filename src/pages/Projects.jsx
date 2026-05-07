@@ -16,7 +16,7 @@ const projects = [
     {
         title: "Faheem Government Digital Assistant",
         status: "Graduation Project",
-        desc: "AI-powered government assistant designed to improve Saudi digital services using natural conversation and dialect-aware interaction.",
+        desc: "AI-powered government digital assistant designed to improve Saudi digital services through natural conversation, dialect-aware interaction, and intelligent user support using modern web technologies and AI integration.",
         tools: ["React", "Tailwind", "Laravel", "MySQL", "AI API", "Vercel", "Railway"],
         github: "https://github.com/MrRRG/Faheem-ai-assistant",
         demo: "https://faheem-teal.vercel.app/",
@@ -32,14 +32,10 @@ const projects = [
         tools: ["React", "Vite", "Tailwind", "React Router", "LocalStorage", "Vercel"],
         github: "https://github.com/MrRRG",
         demo: "https://barber-shop-system-ivory.vercel.app/",
-    },
-    {
-        title: "Game List Management System",
-        status: "Academic Project",
-        desc: "A web application for organizing and managing game information with database integration.",
-        tools: ["PHP", "MySQL", "Azure Database"],
-        github: "#",
-        demo: "#",
+        images: [
+            "/images/barber/menu.png",
+            "/images/barber/services.png",
+        ]
     },
 ];
 
